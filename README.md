@@ -1,0 +1,1 @@
+Il progetto è una landing page di comparazione, dotata di form multipli e integrata con le API di Google Maps. Al momento, il funzionamento del progetto è compromesso a causa della rimozione della libreria principale, ma l'architettura e il codice sono disponibili per la consultazione e l'analisi.
