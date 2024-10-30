@@ -1,0 +1,22 @@
+@import './vendors/bootstrap-vue/index';
+@import './vendors/smartify/index';
+
+@font-face {
+    font-family: 'Trade-Gothic-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trade-Gothic-Bold'), url('@/assets/fonts/Trade Gothic LT Bold.woff') format('woff');
+  }
+@font-face {
+    font-family: 'Trade-Gothic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trade-Gothic'), url('@/assets/fonts/Trade Gothic LT.woff') format('woff');
+  }
+@font-face {
+    font-family: 'Trade-Gothic-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trade-Gothic-Light'), url('@/assets/fonts/Trade Gothic LT Light.woff') format('woff');
+  }
+     

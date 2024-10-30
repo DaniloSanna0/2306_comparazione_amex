@@ -1,0 +1,102 @@
+.smaller {
+  font-size: 0.5em;
+}
+.big {
+  font-size: 1.25em;
+}
+.bigger {
+  font-size: 1.75em;
+}
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+.rounded-circle {
+  border-radius: 50%;
+}
+.svg-margin {
+  margin: -1px 0 -1px 0;
+}
+.flex-md-grow-1 {
+  @include media-breakpoint-up("md") {
+    flex: 1;
+  }
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bg-gradient {
+  background: radial-gradient(circle, #19639b, #0b1c6a);
+}
+
+.primary-alt-light{
+  background: #0975D2;
+  opacity: 0.2;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.active-btn,
+.active-btn:hover,
+.active-btn:focus {
+  background-color: white !important;
+  color: $primary !important;
+  opacity: 0.5;
+}
+
+
+
+.btn-variant {
+  background: white!important;
+  color: #006cd3!important;
+  font-size: 1.4rem!important;
+  padding: 1.5rem 2.1rem!important;
+    border: 1px solid #006cd3!important;
+    border-radius: 0%!important;
+    &:hover{
+      background: #cbe3f9!important;
+    }
+    @include media-breakpoint-up("md") {
+      font-size: 1.1rem !important;
+    }
+}
+.btn-primary {
+  background: #00419F!important;
+  color: white!important;
+  font-size: 1.4rem!important;
+  padding: 1.5rem 2.1rem!important;
+  border: 1px solid #00419F!important;
+  border-radius: 0%!important;
+  &:hover{
+    background: #006cd3!important;
+  }
+  @include media-breakpoint-up("md") {
+    font-size: 1.1rem !important;
+  }
+}
+.button {
+  background: #006cd3!important;
+  color: white!important;
+  font-size: 1.4rem!important;
+  padding: 1.5rem 2.1rem!important;
+  border: 1px solid #006cd3!important;
+  border-radius: 0%!important;
+  @include media-breakpoint-up("md") {
+    font-size: 1.1rem !important;
+  }
+}
